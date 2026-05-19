@@ -1,0 +1,35 @@
+{
+  "name": "@volta-oss/content-calendar-compass",
+  "version": "3.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A local-business content calendar that starts from real events, inventory, seasons, and community moments.",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 4173",
+    "validate": "node --test",
+    "certify": "node --test test/v3.test.js",
+    "test:all": "node --test"
+  },
+  "keywords": [
+    "digital-equity",
+    "local-first",
+    "marketing-content",
+    "oss",
+    "v3-production",
+    "volta"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volta-npo/21-content-calendar-compass.git"
+  },
+  "homepage": "https://volta-npo.github.io/21-content-calendar-compass/",
+  "bugs": {
+    "url": "https://github.com/volta-npo/21-content-calendar-compass/issues"
+  },
+  "author": "Volta OSS Division <volta.npo@gmail.com>",
+  "engines": {
+    "node": ">=20"
+  }
+}
