@@ -1,0 +1,8 @@
+[project]
+name = "content-calendar-compass-backend"
+version = "0.1.0"
+description = "Backend evidence engine for Content Calendar Compass"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
