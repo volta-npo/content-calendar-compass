@@ -4,7 +4,7 @@
 
 ### A local-business content calendar that starts from real events, inventory, seasons, and community moments.
 
-![Volta OSS](https://img.shields.io/badge/Volta%20OSS-v3%20production%20ready-db2777?style=for-the-badge)
+![Volta OSS](https://img.shields.io/badge/Volta%20OSS-release%20ready-db2777?style=for-the-badge)
 ![Mission](https://img.shields.io/badge/Mission-digital%20equity-16a34a?style=for-the-badge)
 ![Runtime](https://img.shields.io/badge/Runtime-local%20first-f9a8d4?style=for-the-badge)
 ![Tests](https://img.shields.io/badge/Tests-25%20passing-111827?style=for-the-badge)
@@ -20,7 +20,7 @@
 
 ## ✨ What it does
 
-**Content Calendar Compass** is a polished, local-first open-source tool from Volta's 50-project OSS division. It helps Marketing students managing social accounts turn real community work into structured evidence, client-safe handoffs, and mentor-reviewable release packets.
+**Content Calendar Compass** is a polished, local-first open-source tool from Volta's open-source program. It helps Marketing students managing social accounts turn real community work into structured evidence, client-safe handoffs, and mentor-reviewable release packets.
 
 > **Volta principle:** digital equity is economic equity. Every tool in this collection is designed so students can ship useful, accountable technology for small businesses, nonprofits, and community organizations that are usually priced out of high-quality digital transformation.
 
@@ -46,7 +46,7 @@ flowchart TD
     Intake --> Evidence["Evidence capture"]
     Evidence --> Workbench["Content Calendar Compass"]
     Workbench --> Score["Content readiness"]
-    Score --> Cert["v3 production certification"]
+    Score --> Cert["release certification"]
     Cert --> A1["30-day calendar"]
     Cert --> A2["Post briefs"]
     Cert --> A3["CSV posting plan"]
@@ -64,7 +64,7 @@ flowchart TD
 ```mermaid
 flowchart LR
     subgraph Modules["First-class modules"]
-        M1["Community event prompts"]
+        M1["Community event guides"]
         M2["Seasonal campaign board"]
         M3["Owner voice notes"]
         M4["Publishing checklist"]
@@ -75,7 +75,7 @@ flowchart LR
     M4 --> Workbench
     Workbench["Local-first workbench"] --> Exports["JSON · CSV · Markdown · Print"]
     Exports --> Review["Owner + mentor review"]
-    Review --> Launch["Production handoff"]
+    Review --> Launch["Client handoff"]
 
     classDef module fill:#eff6ff,stroke:#2563eb,color:#172554;
     classDef app fill:#f8fafc,stroke:#0f172a,color:#0f172a,stroke-width:2px;
@@ -113,12 +113,12 @@ This repository is authored in **TypeScript**. The checked-in JavaScript files a
 
 ## 🚀 Features
 
-| Area | What ships in v3 |
+| Area | What ships in this release |
 |---|---|
 | **Domain workbench** | A purpose-built content calendar interface for a local-business content calendar that starts from real events, inventory, seasons, and community moments. |
 | **Local-first runtime** | Runs as a static web app with local autosave and no server dependency. |
 | **Certification flow** | Release gates require status, owner, severity, and evidence before production handoff. |
-| **Exports** | JSON production bundle, CSV operational table, Markdown certification report, print-ready handoff. |
+| **Exports** | JSON release bundle, CSV operational table, Markdown certification report, print-ready handoff. |
 | **Integrity** | Deterministic certification hash detects changed evidence. |
 | **Safety** | Privacy notes, secret-safe markdown checks, wrong-product import rejection, client-safe defaults. |
 | **Accessibility** | Skip links, keyboard-friendly controls, ARIA meter/list semantics, high-contrast focus support. |
@@ -129,7 +129,7 @@ This repository is authored in **TypeScript**. The checked-in JavaScript files a
 
 | # | Module | Why it matters |
 |---:|---|---|
-| 1 | **Community event prompts** | Converts field work into repeatable, reviewable Volta delivery evidence. |
+| 1 | **Community event guides** | Converts field work into repeatable, reviewable Volta delivery evidence. |
 | 2 | **Seasonal campaign board** | Converts field work into repeatable, reviewable Volta delivery evidence. |
 | 3 | **Owner voice notes** | Converts field work into repeatable, reviewable Volta delivery evidence. |
 | 4 | **Publishing checklist** | Converts field work into repeatable, reviewable Volta delivery evidence. |
@@ -146,7 +146,7 @@ This repository is authored in **TypeScript**. The checked-in JavaScript files a
 | 4 | local voice preserved |
 
 <details>
-<summary><strong>Full v3 quality gates</strong></summary>
+<summary><strong>Full release quality gates</strong></summary>
 
 - All exports work offline
 - Privacy and data handling documented
@@ -213,7 +213,7 @@ No install step is required for the app itself. Tests use Node's built-in test r
 
 ## 🧪 Validation
 
-This repository includes **25 automated tests** covering core scoring, domain behavior, v1 release behavior, and v3 production certification.
+This repository includes **25 automated tests** covering core scoring, domain behavior, v1 release behavior, and release certification.
 
 ```bash
 npm test
@@ -225,7 +225,7 @@ Test coverage includes:
 - product-specific domain sample data
 - artifact generation and markdown exports
 - v1 launch packet behavior
-- v3 import/export round trips
+- release import/export round trips
 - wrong-product import rejection
 - deterministic integrity hashes
 - blocked/critical gate prevention
@@ -244,10 +244,10 @@ Test coverage includes:
 │   ├── domain.js           # Domain-specific workbench definition
 │   ├── domain-core.js      # Domain calculations and artifacts
 │   ├── v1*.js              # v1 release layer
-│   └── v3*.js              # v3 production certification layer
+│   └── release*.js         # release certification layer
 ├── test/                   # 25 automated tests
 ├── docs/                   # Operations, QA, release checklist
-└── examples/               # Production bundle template
+└── examples/               # Release bundle template
 ```
 
 ---
@@ -279,7 +279,7 @@ Read [CONTRIBUTING.md](./CONTRIBUTING.md), [SECURITY.md](./SECURITY.md), and [CO
 
 ## 📄 License
 
-MIT License. Built by the Volta OSS Division for public benefit.
+MIT License. Built by Volta for public benefit.
 
 <div align="center">
 

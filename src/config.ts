@@ -9,7 +9,7 @@ export const config = {
   "niche": "Hyperlocal organic marketing for small businesses.",
   "metric": "posts tied to real local moments",
   "modules": [
-    "Community event prompts",
+    "Community event guides",
     "Seasonal campaign board",
     "Owner voice notes",
     "Publishing checklist"
@@ -36,66 +36,66 @@ export const config = {
   ],
   "criteria": [
     {
-      "id": "community-event-prompts",
-      "label": "Community event prompts",
+      "id": "community-event-guides",
+      "label": "Community event guides",
       "weight": 15,
       "defaultStatus": "not-started",
-      "prompt": "Implement and verify community event prompts with evidence that a Volta student pod, mentor, and owner can understand."
+      "guidance": "Implement and verify community event guides with evidence that a Volta student pod, mentor, and owner can understand."
     },
     {
       "id": "seasonal-campaign-board",
       "label": "Seasonal campaign board",
       "weight": 15,
       "defaultStatus": "not-started",
-      "prompt": "Implement and verify seasonal campaign board with evidence that a Volta student pod, mentor, and owner can understand."
+      "guidance": "Implement and verify seasonal campaign board with evidence that a Volta student pod, mentor, and owner can understand."
     },
     {
       "id": "owner-voice-notes",
       "label": "Owner voice notes",
       "weight": 15,
       "defaultStatus": "not-started",
-      "prompt": "Implement and verify owner voice notes with evidence that a Volta student pod, mentor, and owner can understand."
+      "guidance": "Implement and verify owner voice notes with evidence that a Volta student pod, mentor, and owner can understand."
     },
     {
       "id": "publishing-checklist",
       "label": "Publishing checklist",
       "weight": 15,
       "defaultStatus": "not-started",
-      "prompt": "Implement and verify publishing checklist with evidence that a Volta student pod, mentor, and owner can understand."
+      "guidance": "Implement and verify publishing checklist with evidence that a Volta student pod, mentor, and owner can understand."
     },
     {
       "id": "evidence-quality",
       "label": "Evidence quality",
       "weight": 10,
       "defaultStatus": "not-started",
-      "prompt": "Attach proof, source notes, screenshots, owner confirmation, or reviewer rationale."
+      "guidance": "Attach proof, source notes, screenshots, owner confirmation, or reviewer rationale."
     },
     {
       "id": "owner-handoff",
       "label": "Owner handoff",
       "weight": 10,
       "defaultStatus": "not-started",
-      "prompt": "Make the output understandable and maintainable by a nontechnical owner."
+      "guidance": "Make the output understandable and maintainable by a nontechnical owner."
     },
     {
       "id": "mission-alignment",
       "label": "Mission alignment",
       "weight": 10,
       "defaultStatus": "not-started",
-      "prompt": "Show how this advances digital equity, student growth, or pro bono delivery."
+      "guidance": "Show how this advances digital equity, student growth, or pro bono delivery."
     },
     {
       "id": "qa-safety",
       "label": "QA and safety",
       "weight": 10,
       "defaultStatus": "not-started",
-      "prompt": "Resolve privacy, accessibility, accuracy, and operational risks before handoff."
+      "guidance": "Resolve privacy, accessibility, accuracy, and operational risks before handoff."
     }
   ],
   "templates": {
     "actions": [
       "Run a real Volta scenario for Content Calendar Compass and capture baseline evidence.",
-      "Complete the community event prompts workflow with owner-safe notes.",
+      "Complete the community event guides workflow with owner-safe notes.",
       "Resolve all blocked rubric items and add evidence for every ready item.",
       "Export the handoff packet and review it with a mentor before client use."
     ]
